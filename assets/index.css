@@ -1,0 +1,31 @@
+footer{
+    height:200px;
+    background-color:#dddddd;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around; 
+    
+}
+footer div{
+    color:black;
+    display:flex;
+    align-items: center;
+}
+footer li{
+    list-style-type: none;
+    padding:10px;
+}
+
+@media (max-width: 575.98px) {
+    #introduction img {
+        width: 100px;
+        height: 100px;
+        border-radius:100%;
+        margin-top:10px;
+        z-index: 1;
+
+    }
+    
+}
+
